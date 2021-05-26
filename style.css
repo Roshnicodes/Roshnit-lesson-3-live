@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-body{
+:root
+{
+--primary-color:blue;
+}
+ body{
     font-family: 'Playfair Display', serif;
 }
 /** container **/
@@ -7,11 +11,32 @@ body{
 {
     padding-left: 1rem;
     padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 .container-center
 {
     max-width: 600px;
     margin: auto;
 }
+/** link **/
+.link
+{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary 
+
+{
+   background-color:var(--primary-color);
+   color: white
+}
+.link-secondry
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var
+    (--primary-color);
+}
+
 
 
