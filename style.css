@@ -8,6 +8,7 @@
 }
  body{
     font-family: 'Playfair Display', serif;
+    margin: 0px;
 }
 /** container **/
 .container
@@ -81,6 +82,7 @@ css **/
 }
 .hero .hero-img {
     max-width: 350px;
+    text-align: center;
     display: block;
     margin: auto;
 }
@@ -103,4 +105,18 @@ css **/
 .ow {
     background-color: var(--off-white);
 
+}
+/** footer **/
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul {
+    padding-inline-start: 0px;
 }
