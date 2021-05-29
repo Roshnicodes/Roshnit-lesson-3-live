@@ -3,6 +3,8 @@
 {
 --primary-color:#3B82F6;
 --dark-gray:#6B7280;
+--off-white:#9CA3AF;
+
 }
  body{
     font-family: 'Playfair Display', serif;
@@ -89,4 +91,16 @@ css **/
 }
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+/** section **/
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+
+}
+.ow {
+    background-color: var(--off-white);
+
 }
